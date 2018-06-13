@@ -166,6 +166,16 @@ label {
     flex-basis: 50px;
   }
 
+  .column img {
+    filter: grayscale(0.05);
+    transition: 0.3s;
+  }
+
+  .column img:hover {
+    filter: grayscale(0);
+    transform: scale(1.015);
+  }
+
   .column-1 {
     padding: 45px 0.5vw 0 0.5vw;
   }
